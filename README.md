@@ -9,12 +9,12 @@ For this project I will put my ETL skills to the test. Many of Amazon's shoppers
 1. Extracted data - Two Amazon customer review datasets into Spark DataFrames. One was for video games and one was for pet products.
     * https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz 
     * https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Pet_Products_v1_00.tsv.gz
-2. Transformed data - Created four dataframes based off the information extracted:
+2. Transformed data - Created four dataframes from each dataset based off the information extracted:
     * "review_id_df" DataFrame with appropriate columns and datatypes
     * "products_df" DataFrame that drops the duplicates on the "product_id" and "product_title" columns
     * "customers_df" DataFrame that groups the data on the "customer_id" by the number of times a customer reviewed a product
     * "vine_df" DataFrame that has the "review_id", "star_rating", "helpful_votes", "total_votes", and "vine" columns
-3. Load data - Exported each DataFrame into the RDS instance to creat four tables for each dataset
+3. Load data - Exported each DataFrame into the RDS instance to create four tables for each dataset
 
 ## Tools used: 
 Google Colab, AWS, Spark, postgresql, java, hadoop
