@@ -18,3 +18,5 @@ For this project I will put my ETL skills to the test. Many of Amazon's shoppers
 
 ## Tools used: 
 Google Colab, AWS, Spark, postgresql, java, hadoop
+
+![image](https://user-images.githubusercontent.com/100399092/210940578-b0c22855-ffbb-4dbb-827e-28899acf4a1e.png)
